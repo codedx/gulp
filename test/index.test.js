@@ -22,11 +22,6 @@ describe('gulp', function() {
       done();
     });
 
-    it('watch', function(done) {
-      expect(gulp.hasOwnProperty('watch')).toEqual(true);
-      done();
-    });
-
     it('task', function(done) {
       expect(gulp.hasOwnProperty('task')).toEqual(true);
       done();
